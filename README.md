@@ -1,20 +1,59 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Surmaya — AI-Powered Personal Finance Tracker
 
-# Run and deploy your AI Studio app
+## What It Does
 
-This contains everything you need to run your app locally.
+Surmaya helps you track income and expenses, visualize spending patterns, and receive AI-generated financial analysis and recommendations tailored for Pakistan. The app provides actionable insights, goal tracking, and an interactive AI advisor for personalized guidance.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1NExzwecv2t2h5QdKBerSGzNchXoQJu55
+## The Problem It Solves
 
-## Run Locally
+Young professionals in Pakistan lack accessible, intelligent tools to understand their own financial health. Surmaya makes this simple.
 
-**Prerequisites:**  Node.js
+## Tech Stack
 
+- **Frontend:** React (with Vite)
+- **AI Integration:** Gemini API (`@google/genai`)
+- **Charts:** Recharts
+- **TypeScript**
+- **Tailwind CSS** (via class usage)
+- **Font Awesome** (icons)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Features
+
+- Income and expense tracking with categories
+- Visual spending breakdown by category (pie chart)
+- Savings and goal tracking with progress bars
+- Loans tracker (given/taken, due dates, status)
+- AI-powered financial advisor chat (contextual, Pakistani market-aware)
+- Contextual AI advice overlay on every screen
+- Quick prompts for common queries (e.g., Zakat, tax slabs)
+- Responsive, mobile-friendly UI
+
+## Screenshots
+
+Screenshots coming soon
+
+## Getting Started
+
+**Prerequisites:** Node.js
+
+1. Clone the repository.
+2. Install dependencies:
+   ```
+   npm install
+   ```
+3. Obtain a Gemini API key from the Gemini developer portal.
+4. Create a `.env.local` file in the project root and add:
+   ```
+   GEMINI_API_KEY=your_api_key_here
+   ```
+5. Run the app:
+   ```
+   npm run dev
+   ```
+
+## Future Roadmap
+
+- Bank statement PDF upload with AI analysis
+- Spending category breakdown with charts
+- Budget goal setting and alerts
+- Multi-currency support
