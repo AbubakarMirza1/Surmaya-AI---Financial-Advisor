@@ -1,5 +1,6 @@
 {
   "name": "Sarmaya AI - Financial Advisor",
   "description": "A sophisticated Generative AI-driven financial advisory POC for the Pakistani market, featuring budget tracking, goal planning, and context-aware economic guidance.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": []
 }
